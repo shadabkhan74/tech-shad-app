@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#nav1{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+
+}
+#logo{
+  text-shadow: 1px 2px 2px blue;
+  transition: 1s;
+  font-weight: bold;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-brand{
+  /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+
+  /* padding: 0px 20px 0px 20px; */
+  /* background-color: black; */
+  font-size: 35px;
+   color: #3498db;
+  font-weight: normal;
+  text-transform: uppercase;
+   /* color: white; */
+}
+.navbar a.active{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+border-bottom:none ;
+
+  color: #094f7d;
+background-color: white;
+  /* border-radius: 5px; */
+
+  /* border-bottom: 2px solid  #3498db; */
+}
+.navbar a{
+  
+  transition: 1s;
+  font-size: 20px;
+text-transform: uppercase;
+}
+.nav-item a:hover {
+  
+  font-weight: normal;
+  color: #3498db;
+ /* border-bottom: 1px solid #565387; */
+
+}
+#link{
+  border-bottom: none;
+}
+
+.menu_active{
+
+  font-weight: bold;
+  /* border-bottom: 1px solid #565387; */
+}
+#button{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+#cards1{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+#cards1:hover{
+  transition: 0.3s;
+  cursor: pointer;
+
+border-radius: 25px;
+  border: #a6cee9 solid;
+
+
+}
+#header .animated{
+  animation: up-down 4s ease-in-out infinite alternate-reverse both ;
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(30px);
+  }
+  100%{
+    transform: translateY(-30px);
+  }
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(30px);
+  }
+  100%{
+    transform: translateY(-30px);
+  }
+}
+
+#h4{
+  color: rgb(67, 63, 63);
+}
+
+@media (max-width:500px) {
+  #sk{
+    font-size: 25px;
+  }
+  
+}
+@media (max-width:850px) {
+  #sk{
+    text-align: center;
+  }
+  
+}
+
+@media (max-width:550px) {
+  #mainimg{
+    height: 20rem;
+    width: 10rem;
+    text-align: center;
+  }
+  #contactmain{
+    margin-top: 70px;
+  }
+  #contactmain1{
+    margin-bottom: 70px;
+  }
+  
+}
+
+
+#contactmain1{
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+#mainbrand{
+  padding: 5px 0px 5px 0;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
